@@ -24,6 +24,7 @@
         -webkit-user-select: none;
         -moz-user-select: none;
         user-select: none;
+        margin-top: 50%;
       }
 
       @media (min-width: 768px) {
@@ -94,13 +95,45 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
-    </style>
+      
+    .container {
+      display:block;
+    }
+
+    .lead {
+      font-size:small;
+    }
+
+    img {
+      border-radius: 50%;
+    }
+
+    body {
+      margin: 1%;
+      padding: left -1%;
+      background-color: white;
+    }
+    
+    p {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    td {
+      background-color: lightgrey;
+      border-radius: 20%;
+      margin: 2%;
+      padding:0px;
+    }
+
+
+  </style>
+    
 
     
     <!-- Custom styles for this template -->
     <link href="assets/carousel/carousel.css" rel="stylesheet">
   </head>
-  <body>
+<body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -123,14 +156,20 @@
 <header data-bs-theme="dark">
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="comer.html">O que comer?</a>
+      <a class="navbar-brand" href="index.html">Início</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+            <a class="nav-link active" aria-current="page" href="comer.html">O que comer?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="ondeficar.html">Onde ficar?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="oquefazer.html">O que fazer?</a>
           </li>
         
         </ul>
@@ -146,129 +185,211 @@
 <main>
 
   
+  <div class="container-fluid">
+    <h1>São Pedro do Piauí</h1>
+    <table>
+      
+      <tbody>
+      <tr>
+        <td>
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Açaí Mania & Hamburgueria</h2>
+              <p class="lead">
+                Delivery • (86) 99931-0761 • Rua Pedro Alvares Cabral 483, Boa Nova.
+              </p>
+           </div>
+              <div class="col-md-5 img-container-block">
+                <img src="assets/img/acaimania.jpg"
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Açaí Mania</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+              </div>
+            </div>
+        </div>
+        </td>
 
+        <td bgcolor="lightgrey">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Restaurante Lá em Casa</h2>
+            <p class="lead">
+              Restaurante • (86) 99536-0242 • Av. Pres. Vargas - Centro.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="assets/img/laemcasa.jpg"
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Restaurante Lá em Casa</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Pizzaria Pizzanen</h2>
+              <p class="lead">
+                Delivery • (86) 99934-7710 • Av. Pres. Vargas, São Pedro do Piauí - Centro.
+              </p>
+            </div>
+            <div class="col-md-5">
+              <img src="assets/img/pizzanen.png"
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Pizzanen</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"><A></A></text></svg>
+            </div>
+          </div>
+        </td>
 
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
+        <td>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal 1h-1">Açaiteria Açaí Master</h2>
+              <p class="lead">
+                Delivery • (86) 9929-4337 • Rua Leonidas Melo, 1096.
+              </p>
+            </div>
+            <div class="col-md-5">
+              <img src="assets/img/acaimaster.png"
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Açaí Master</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+            </div>
+          </div>      
+        </td>
+      </tr>
 
-  <div class="container marketing">
+      <tr>
 
-    <!-- Three columns of text below the carousel -->
-   
+        <td>
+          <div class="row featurette">
+            <div class="col-md-7 ">
+              <h2 class="featurette-heading fw-normal lh-1"> Bar da Hora </h2>
+              <p class="lead">
+               Pizzaria e Churrascaria • Delivery • (86) 99922-9113 • R. Leônidas Melo.
+              </p>
+            </div>
+            <div class="col-md-5 ">
+              <img src="assets/img/bardahora.png"
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bar da Hora</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+            </div>
+          </div>
+        </td>
 
+        <td>
+          <div class="row featurette">
+            <div class="col-md-7 ">
+              <h2 class="featurette-heading fw-normal lh-1">Arrumadinho Sabor da Casa </h2>
+              <p class="lead">
+                Restaurante • (86) 98175-7826 • Rua Francisco José de Carvalho Nº187 Bairro Betel
+              </p>
+            </div>
+            <div class="col-md-5 ">
+              <img src="assets/img/sabordacasa.jpg"
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bar da Hora</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="row featurette">
+            <div class="col-md-7 ">
+              <h2 class="featurette-heading fw-normal lh-1"> Diamantezinho Doce </h2>
+              <p class="lead">
+                Doceria • (86) 90803-4790 • Rua dos Esportes, Nº348, Centro
+              </p>
+            </div>
+            <div class="col-md-5 ">
+              <img src="assets/img/diamantezinho.jpg"
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bar da Hora</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+            </div>
+          </div>
+        </td>
 
-    <!-- START THE FEATURETTES -->
+        <td>
+          <div class="row featurette">
+            <div class="col-md-7 ">
+              <h2 class="featurette-heading fw-normal lh-1">  Gastrobar Tempero do Nordeste </h2>
+              <p class="lead">
+                Restaurante • (86)99962-6774 • Mercado Público, Centro
+              </p>
+            </div>
+            <div class="col-md-5 ">
+              <img src="assets/img/tempnordeste.jpg"
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bar da Hora</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="row featurette">
+            <div class="col-md-7 ">
+              <h2 class="featurette-heading fw-normal lh-1"> Aniele Bolos </h2>
+              <p class="lead">
+                Confeitaria • (86) 98163-6367 
+              </p>
+            </div>
+            <div class="col-md-5 ">
+              <img src="assets/img/anielebolos.jpg"
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bar da Hora</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+            </div>
+          </div>
+        </td>
 
-    <hr class="featurette-divider">
+        <td>
+          <div class="row featurette">
+            <div class="col-md-7 ">
+              <h2 class="featurette-heading fw-normal lh-1">Pizzaria do Patrão</h2>
+              <p class="lead">
+                (86) 99954-3281 • Avenida Presidente Vargas • Praça de Eventos, Centro.
+              </p>
+            </div>
+            <div class="col-md-5 ">
+              <img src="assets/img/pizzariapatrao.PNG"
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bar da Hora</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="row featurette">
+            <div class="col-md-7 ">
+              <h2 class="featurette-heading fw-normal lh-1">Arrumadinho da Meyre </h2>
+              <p class="lead">
+                Restaurante • (86) 98193-4847 • Praça do Mercado Público • Delivery.
+              </p>
+            </div>
+            <div class="col-md-5 ">
+              <img src="assets/img/arrumadinmeyre.jpg"
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bar da Hora</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+            </div>
+          </div>
+        </td>
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Cantinho do Açaí</h2>
+        <td>
+           <div class="row featurette">
+      <div class="col-md-7 ">
+        <h2 class="featurette-heading fw-normal lh-1">Mega Pastelão </h2>
         <p class="lead">
-          Delivery: Sim <br>
-          Cardápio online: Sim <br>
-          Whatsapp: (86) 9 9932-0761<br>
-          Avaliação: 4 estrelas <br>
+           Delivery • (86) 99930-8945 • Baixa do Alto da Cruz.
         </p>
       </div>
-      <div class="col-md-5 order-md-1">
-        <img src="assets/img/acaimania.png"
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Açaí Mania</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+      <div class="col-md-5 ">
+        <img src="assets/img/pastelao.jpg"
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bar da Hora</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Restaurante Lá em Casa</h2>
-        <p class="lead">
-          Delivery: Não<br>
-          Cardápio online: Sim <br>
-          Whatsapp: (86) 99536-0242<br>
-          Avaliação: 4,5 estrelas <br>
-        </p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img src="assets/img/laemcasa.jpg"
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Restaurante Lá em Casa</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Pizzaria Pizzanen</h2>
-        <p class="lead">
-          Delivery: Sim <br>
-          Cardápio online: Sim <br>
-          Whatsapp:(86) 99934-7710<br>
-          Avaliação: 4,4 estrelas <br>
-        </p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img src="assets/img/pizzanen.png"
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Pizzanen</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"><A></A></text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Açaiteria Açaí Master</h2>
-        <p class="lead">
-          Delivery: Sim <br>
-          Cardápio online: Sim <br>
-          Whatsapp: (86) 9929-4337 <br>
-          Avaliação: <br>
-        </p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img src="assets/img/acaimaster.png"
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Açaí Master</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1"> Bar da Hora </h2>
-        <p class="lead">
-          Delivery: <br>
-          Cardápio online: Sim <br>
-          Whatsapp>:(86) 99934-7710<br>
-          Avaliação: <br>
-        </p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img src="assets/img/bardahora.png"
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bar da Hora</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-  
-
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
+        </td>
+      </tr></tbody>
+    </table>
+  </div>
 
 
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Voltar para o topo</a></p>
-    <p>&copy; 2017–2023 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; 2017-2023 Company, Inc. </p>
   </footer>
 </main>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-    </body>
+</body>
 </html>
