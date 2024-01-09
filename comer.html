@@ -115,14 +115,17 @@
       font-size: 13px;
     }
 
-    .fundo {
-      background-color: lightgrey;
-      margin: 10px;
-      padding: 10px;
-    }
+
 
     h2 {
       padding-top: 5%;
+    }
+
+    .card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    background: #D9D9D9;
     }
   </style>
 
@@ -167,7 +170,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="comer.html">O que comer?</a>
+              <a class="nav-link active" aria-current="page" href="comer.html">Onde comer?</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="ondeficar.html">Onde ficar?</a>
@@ -179,7 +182,7 @@
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Procurar..." aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
           </form>
         </div>
       </div>
@@ -190,7 +193,7 @@
 
 
     <div class="container-fluid">
-      <h1 class="text-center">Onde Comer?</h1>
+      <h1 class="text-center">Onde comer?</h1>
       <div class="row">
         <!-- Team member -->
         <div class="col-xs-12 col-sm-6 col-md-4">
@@ -199,10 +202,10 @@
                     <div class="frontside">
                         <div class="card">
                             <div class="card-body text-center">
-                                <p><img class=" img-fluid" src="assets/img/acaimania.jpg" alt="card image"></p>
+                                <p><img class=" img-fluid" src="assets/img/acai.jpg" alt="card image"></p>
                                 <h4 class="card-title">Açaí Mania & Hamburgueria</h4>
                                 <p class="card-text">Delivery • (86) 99931-0761 • Rua Pedro Alvares Cabral 483, Boa Nova.</p>
-                                <a href="https://api.whatsapp.com/send?phone=5586999310761&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=5586999310761&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -221,7 +224,7 @@
                                 <p><img class=" img-fluid" src="assets/img/laemcasa.jpg" alt="card image"></p>
                                 <h4 class="card-title">Restaurante Lá em Casa</h4>
                                 <p class="card-text">Restaurante • (86) 99536-0242 • Av. Pres. Vargas - Centro.</p>
-                                <a href="https://api.whatsapp.com/send?phone=5586995360232&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=5586995360232&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -240,7 +243,7 @@
                                 <p><img class=" img-fluid" src="assets/img/pizzanen.png" alt="card image"></p>
                                 <h4 class="card-title">Pizzaria Pizzanen</h4>
                                 <p class="card-text">Delivery • (86) 99934-7710 • Av. Pres. Vargas, São Pedro do Piauí - Centro.</p>
-                                <a href="https://api.whatsapp.com/send?phone=5586999347710&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=5586999347710&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -259,7 +262,7 @@
                                 <p><img class=" img-fluid" src="assets/img/acaimaster.png" alt="card image"></p>
                                 <h4 class="card-title">Açaiteria Açaí Master</h4>
                                 <p class="card-text">Delivery • (86) 9929-4337 • Rua Leonidas Melo, 1096.</p>
-                                <a target="_blank" href="https://api.whatsapp.com/send?phone=558699294337&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                                <a target="_blank" href="https://api.whatsapp.com/send?phone=558699294337&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -278,7 +281,7 @@
                                 <p><img class=" img-fluid" src="assets/img/bardahora.png" alt="card image"></p>
                                 <h4 class="card-title"> Bar da Hora </h4>
                                 <p class="card-text">Pizzaria e Churrascaria • Delivery • (86) 99922-9113 • R. Leônidas Melo.</p>
-                                <a href="https://api.whatsapp.com/send?phone=5586999229113&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=5586999229113&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -297,7 +300,7 @@
                                 <p><img class=" img-fluid" src="assets/img/sabordacasa.jpg"" alt="card image"></p>
                                 <h4 class="card-title">Arrumadinho Sabor da Casa</h4>
                                 <p class="card-text">Restaurante • (86) 98175-7826 • Rua Francisco José de Carvalho Nº187 Bairro Betel</p>
-                                <a href="https://api.whatsapp.com/send?phone=5586981757826&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=5586981757826&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -315,7 +318,7 @@
                               <p><img class=" img-fluid" src="assets/img/diamantezinho.jpg" alt="card image"></p>
                               <h4 class="card-title">Diamantezinho Doce </h4>
                               <p class="card-text">Doceria • (86) 90803-4790 • Rua dos Esportes, Nº348, Centro.</p>
-                              <a href="https://api.whatsapp.com/send?phone=5586908034790&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                              <a href="https://api.whatsapp.com/send?phone=5586908034790&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                           </div>
                       </div>
                   </div>
@@ -334,7 +337,7 @@
                               <p><img class=" img-fluid" src="assets/img/tempnordeste.jpg" alt="card image"></p>
                               <h4 class="card-title">Gastrobar Tempero do Nordeste</h4>
                               <p class="card-text">Restaurante • (86)99962-6774 • Mercado Público, Centro.</p>
-                              <a href="https://api.whatsapp.com/send?phone=5586999626774&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                              <a href="https://api.whatsapp.com/send?phone=5586999626774&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                           </div>
                       </div>
                   </div>
@@ -350,10 +353,10 @@
                   <div class="frontside">
                       <div class="card">
                           <div class="card-body text-center">
-                              <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_03.png" alt="card image"></p>
-                              <h4 class="card-title">Sunlimetech</h4>
-                              <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                              <a href="https://api.whatsapp.com/send?phone=5586999347710&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                              <p><img class=" img-fluid" src="assets/img/pastelao.jpg" alt="card image"></p>
+                              <h4 class="card-title">Mega Pastel Burguer</h4>
+                              <p class="card-text">Lanchonete • (86)9930-8945 • R.Leonidas Melo, 1096, Centro.</p>
+                              <a href="https://api.whatsapp.com/send?phone=558699308945&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                           </div>
                       </div>
                   </div>
@@ -372,7 +375,7 @@
                               <p><img class=" img-fluid" src="assets/img/anielebolos.jpg" alt="card image"></p>
                               <h4 class="card-title">Aniele Bolos </h4>
                               <p class="card-text">Confeitaria • (86) 98163-6367</p>
-                              <a href="https://api.whatsapp.com/send?phone=5586981636367&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                              <a href="https://api.whatsapp.com/send?phone=5586981636367&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                           </div>
                       </div>
                   </div>
@@ -391,7 +394,7 @@
                               <p><img class=" img-fluid" src="assets/img/pizzariapatrao.PNG" alt="card image"></p>
                               <h4 class="card-title">Pizzaria do Patrão</h4>
                               <p class="card-text">(86) 99954-3281 • Avenida Presidente Vargas • Praça de Eventos, Centro.</p>
-                              <a href="https://api.whatsapp.com/send?phone=5586999543281&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                              <a href="https://api.whatsapp.com/send?phone=5586999543281&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                           </div>
                       </div>
                   </div>
@@ -410,7 +413,7 @@
                               <p><img class=" img-fluid" src="assets/img/arrumadinmeyre.jpg" alt="card image"></p>
                               <h4 class="card-title">Arrumadinho da Meyre</h4>
                               <p class="card-text">Restaurante • (86) 98193-4847 • Praça do Mercado Público • Delivery.</p>
-                              <a href="https://api.whatsapp.com/send?phone=5586981934847&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-success btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
+                              <a href="https://api.whatsapp.com/send?phone=5586981934847&text=Olá,%20queria%20fazer%20um%20pedido!" class="btn btn-primary btn-sm">Entrar em contato<i class="fa fa-plus"></i></a>
                           </div>
                       </div>
                   </div>
